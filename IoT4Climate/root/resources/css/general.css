@@ -1,0 +1,478 @@
+/* this the beginning of the ccs reset code we do this to make sure browser dont add unwanted effects to our html file*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+::-moz-selection {
+  background-color: #b3d4fc;
+  color: #000000;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: #b3d4fc;
+  color: #000000;
+  text-shadow: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+svg {
+  display: inline-block;
+  max-width: 100%;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+
+input,
+textarea,
+select {
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+  font-size: 1.6rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+::-moz-selection {
+  background-color: #b3d4fc;
+  color: #000000;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: #b3d4fc;
+  color: #000000;
+  text-shadow: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+svg {
+  display: inline-block;
+  max-width: 100%;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+
+input,
+textarea,
+select {
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+  font-size: 1.6rem;
+}
+
+/* this the end of the ccs reset code we do this to make sure browser dont add unwanted effects to our html file*/
+
+body {
+  background-color: rgba(206, 221, 202, 0.8);
+  width: 90%;
+  margin: 5%;
+  padding: 1%;
+  align-self: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  color: black;
+  place-items: center;
+}
+
+header {
+  background-image: url(../images/1920-x-1080-nature-desktop-42gt7vueqzx9xbfw.jpeg);
+  color: white;
+  border-radius: 20px;
+  border: solid 5px burlywood;
+  width: 90%;
+}
+
+h1 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(226, 13, 13, 0.829);
+  font-size: 200%;
+  border-radius: 20px;
+  
+
+}
+
+h2 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(48, 2, 252);
+  font-size: 100%;
+  background-color: yellowgreen;
+  text-shadow: 5px -6px 5px rgba(63, 41, 255, 1);
+  border-radius: 20px;
+  border: solid 5px beige;
+  margin-bottom: 1%;
+}
+
+h3{
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+  text-shadow: none;
+  margin: auto;
+     
+}
+
+p {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.801);
+  text-align: center;
+  margin: 0.5%;
+}
+
+.container-image{
+  border: hidden;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width :fit-content;
+  
+  
+}
+
+.container-rows{
+  border: hidden;
+  display: flex;
+  flex-direction: row;
+  ;
+
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: #000000 solid;
+  margin: 4%;
+  padding: 5px;
+  border: hidden; 
+}
+
+footer {
+  text-align: center;
+  border-radius: 20px;
+  border: solid 5px black;
+  background-image: url(../images/blossoming-delight-a-stunning-floral-display-zmmlwfqe00aq0dwf.jpg);
+  color: white;
+  font-size: smaller;
+  width: 90%;
+
+}
+
+div {
+  width: 90%;
+  height: fit-content;
+  text-align :center;
+  margin-bottom: 3%;
+  border-radius: 20px;
+  overflow: hidden;
+  border: solid 5px black; 
+  vertical-align: middle;
+  
+  
+  
+}
+
+
+/* css voor het contact formulier */
+
+.body1 {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-self: center;
+  height: fit-content;
+  max-width: 100%;
+  padding-left: 4%;
+  
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: hidden;
+
+}
+
+.container-card
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: hidden;  
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1{
+  background-color: #ccc;
+  border: hidden;
+  margin: 1%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 2px -2px 9px rgba(11, 255, 35, 1),-13px 3px 23px rgba(103, 22, 41, 1);
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;  
+}
+
+.card2{
+  background-color: #5fd430;
+  border: hidden;
+  margin: 1%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-shadow: 5px -6px 8px rgba(63, 41, 255, 0.88);
+  height: fit-content;
+}
+
+.card3{
+  background-color: #86c8e2;
+  border: hidden;
+  height: fit-content;
+  overflow: hidden;
+  margin: 1%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-shadow: 5px -6px 8px rgba(63, 41, 255, 0.88),13px -11px 13px rgba(111, 72, 119, 1),5px 18px 10px rgba(21, 97, 60, 1);
+}
+
+
+.contact-info {
+  
+  padding: 1px;
+  width: 100%;
+  border: hidden;
+  align-content: center;
+  margin: 2%;
+
+  
+}
+
+.contact-info h2 {
+  color: green;
+}
+
+.contact-info-input h2 {
+  color: green;
+}
+
+.contact-info p, 
+.contact-info a {
+  margin: 10px 0;
+  color: #333;
+
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #333;
+
+}
+
+.contact-info .social-icons {
+  margin: 25px;
+  border: hidden;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin: 0 5px;
+  color: #333;
+  border: hidden;
+}
+
+.contact-form {
+
+  width: 100%;
+  padding: 2%;
+  border: hidden;
+  
+  
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border: hidden;
+  
+  
+  
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid 3px black
+}
+
+.fa-address-card {
+  padding: 1%;
+  
+}
+
+.fa-envelope {
+  padding: 1%;
+}
+
+.fa-phone {
+  padding: 1%;
+}
+.blockquote1{
+  margin: auto;
+}
+.icon-contactform{
+  position: left;
+  display: flex;
+  border: hidden;
+  border-radius: 0%;
+
+}
+.img-form{
+  height: 30px;
+  width: 30px;
+}
